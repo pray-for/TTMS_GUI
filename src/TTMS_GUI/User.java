@@ -16,11 +16,13 @@ public class User extends JFrame {
 
         MovieInformation movieInformation = new MovieInformation();
         BookInformation book = new BookInformation();
+        Evaluate evaluate = new Evaluate();
 
         JTabbedPane jTabbedPane = new JTabbedPane();
 
         jTabbedPane.add("影片信息" , movieInformation.MovieInformation());
         jTabbedPane.add("订票" , book.BookInformation());
+        jTabbedPane.add("评价" , evaluate.PingJia());
 
 
 

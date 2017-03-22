@@ -11,6 +11,11 @@ import java.awt.event.ActionListener;
 /**
  * Created by zhangjiawen on 2017/3/20.
  */
+
+/**
+ * 显示影片信息界面
+ * @author 韦梦亭
+ */
 public class MovieInformation {
 
     public JTabbedPane MovieInformation() {
@@ -84,9 +89,8 @@ public class MovieInformation {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     //进入选座界面
-//                    JTabbedPane jTabbedPane = new JTabbedPane();
-//                    jTabbedPane.add(YanChuTing1());
-//                    jTabbedPane.setVisible(true);
+//                    BookInformation bookInformation = new BookInformation();
+//                    bookInformation.BookInformation();
                 }
             });
 

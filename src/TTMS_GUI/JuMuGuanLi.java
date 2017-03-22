@@ -10,6 +10,10 @@ import java.awt.*;
  * Created by zhangjiawen on 2017/3/20.
  */
 
+/**
+ * 剧目管理界面
+ * @author 张鸽
+ */
 
 public class JuMuGuanLi {
 

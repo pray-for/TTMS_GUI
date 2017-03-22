@@ -1,7 +1,5 @@
 package TTMS_GUI;
 
-import sun.applet.Main;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -44,8 +42,6 @@ public class Login extends JFrame{
         /**
          * 用户登录界面
          */
-//        String[] select = new String[]{"用户" , "管理员"};
-//        JComboBox<String> jComboBox_select = new JComboBox<>(select);
 
         jButton_Login = new JButton("登录");//给登录&注册按钮创建对象
         jButton_register = new JButton("注册");
@@ -55,11 +51,9 @@ public class Login extends JFrame{
 
         JLabel jLabel_name = new JLabel("用户名");//给用户名&密码标签创建对象
         JLabel jLabel_password = new JLabel("密  码");
-//        JLabel jLabel_select = new JLabel("选择身份");
 
         JPanel jPanel_Login = new JPanel();//给登录&注册&按钮面板创建对象
         JPanel jPanel_password = new JPanel();
-//        JPanel jPanel_select = new JPanel();
         JPanel jPanel_button = new JPanel();
 
         jPanel_Login.setLayout(new FlowLayout());//给各个面板添加布局以及内容
@@ -69,10 +63,6 @@ public class Login extends JFrame{
         jPanel_password.setLayout(new FlowLayout());
         jPanel_password.add(jLabel_password);
         jPanel_password.add(textField_password);
-
-//        jPanel_select.setLayout(new FlowLayout());
-//        jPanel_select.add(jLabel_select);
-//        jPanel_select.add(jComboBox_select);
 
         jPanel_button.setLayout(new FlowLayout());
         jPanel_button.add(jButton_Login);
@@ -84,7 +74,6 @@ public class Login extends JFrame{
         jPanel_yi.add(jPanel_null);
         jPanel_yi.add(jPanel_Login);
         jPanel_yi.add(jPanel_password);
-//        jPanel_yi.add(jPanel_select);
 
         JPanel jPanel_title = new JPanel();//设置标题面板
         jPanel_title.setLayout(new GridLayout(1,3, 10, 10));
@@ -174,7 +163,6 @@ public class Login extends JFrame{
 
         this.setLayout(new GridLayout(1, 1));
         this.add(jTabbedPane);
-//        this.add(jPanel_user);
         this.setVisible(true);
 
 
